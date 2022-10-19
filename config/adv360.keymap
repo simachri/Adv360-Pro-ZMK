@@ -26,9 +26,9 @@
       bindings = <
         &kp ESC       &kp LS(N1)   &kp RA(N8)     &kp RA(N7)    &kp LS(N8)    &kp BSLH     &kp SPACE                                                                                                      &none                  &kp LS(RBKT) &kp LS(N9)   &kp RA(N0)     &kp RA(N9)    &kp LS(N6)    &none
         &mo 1         &kp Q        &kp W          &kp E         &kp R         &kp T        &kp LS(BSLH)                                                                                                   &kp LS(N2)             &kp Z        &kp U        &kp I          &kp O         &kp P         &kp LBKT
-        &kp LSHFT     &kp A        &kp S          &kp D         &kp F         &kp G        &kp LS(N7)                             &kp LCTRL  &kp LALT               &kp LGUI   &kp RCTRL                  &kp FSLH               &kp H        &kp J        &kp K          &kp L         &kp SEMI      &kp RSHFT
-        &mo 3         &kp Y        &kp X          &kp C         &kp V         &kp B                               &none           &none      &kp HOME   &none &none &kp PG_UP  &none      &none                                  &kp N        &kp M        &kp COMMA      &kp DOT       &kp MINUS     &kp SQT
-        &kp LS(LCTRL) &kp TAB      &kp RBKT       &kp LS(EQUAL) &kp RA(MINUS)                                     &kp BSPC        &mo 2      &kp DEL                &caps_word &kp ENTER  &kp SPACE                                           &kp ESC      &kp LS(SLASH)  &kp LS(N0)    &kp LS(N5)    &kp CAPS
+        &kp LSHFT     &kp A        &kp S          &kp D         &kp F         &kp G        &kp LS(N7)                             &kp LCTRL  &kp LS(LCTRL)          &kp LGUI   &kp RCTRL                  &kp FSLH               &kp H        &kp J        &kp K          &kp L         &kp SEMI      &kp RSHFT
+        &mo 3         &kp Y        &kp X          &kp C         &kp V         &kp B                               &none           &none      &kp DEL    &none &none &caps_word &none      &none                                  &kp N        &kp M        &kp COMMA      &kp DOT       &kp MINUS     &kp SQT
+        &none         &kp TAB      &kp RBKT       &kp LS(EQUAL) &kp RA(MINUS)                                     &kp BSPC        &mo 2      &kp TAB                &kp CAPS   &kp ENTER  &kp SPACE                                           &kp ESC      &kp LS(SLASH)  &kp LS(N0)    &kp LS(N5)    &none
       >;
     };
     nav_cmd {
@@ -44,7 +44,7 @@
       bindings = <
         &trans        &kp F1       &kp F2         &kp F3        &kp F4        &kp F5       &trans                                                                                                         &trans                 &kp F6       &kp F7       &kp F8         &kp F9        &kp F10       &trans
         &trans        &trans       &trans         &trans        &trans        &trans       &none                                                                                                          &kp F11                &trans       &trans       &trans         &trans        &trans        &trans
-        &trans        &trans       &kp NON_US_BACKSLASH &kp GRAVE &kp RA(NON_US_BACKSLASH)  &trans       &none                                  &trans     &trans                 &trans      &trans                    &kp F12                &trans       &kp RA(RBKT) &kp LS(N4)     &kp LS(NON_US_BACKSLASH)  &trans        &trans
+        &trans        &trans       &kp NON_US_BACKSLASH &kp GRAVE &kp RA(NON_US_BACKSLASH)  &trans       &none                               &trans     &trans                  &trans    &trans          &kp F12                &trans       &kp RA(RBKT) &kp LS(N4)     &kp LS(NON_US_BACKSLASH)    &trans
         &trans        &kp RA(Q)    &trans         &trans        &trans        &trans                              &none           &none      &trans     &none &none &trans      &none     &none                                  &trans       &trans       &trans         &trans        &trans        &trans
         &trans        &trans       &trans         &trans        &trans                                            &trans          &none      &trans                 &trans      &trans    &trans                                              &trans       &trans         &trans        &trans        &trans
       >;

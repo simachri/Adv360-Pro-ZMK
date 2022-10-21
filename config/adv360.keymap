@@ -32,7 +32,7 @@
         &mo 1         &kp Q        &kp W          &kp E         &kp R         &kp T        &kp LS(BSLH)                                                                                                   &kp LS(N2)             &kp Z        &kp U        &kp I          &kp O         &kp P         &kp LBKT
         &kp LSHFT     &kp A        &kp S          &kp D         &kp F         &kp G        &kp LS(N7)                             &kp LCTRL  &kp LS(LCTRL)          &kp LGUI   &kp RCTRL                  &kp FSLH               &kp H        &kp J        &kp K          &kp L         &kp SEMI      &kp RSHFT
         &mo 3         &kp Y        &kp X          &kp C         &kp V         &kp B                               &none           &none      &kp DEL    &none &none &none      &none      &none                                  &kp N        &kp M        &kp COMMA      &kp DOT       &kp MINUS     &kp SQT
-        &none         &kp TAB      &kp RBKT       &kp LS(EQUAL) &kp RA(MINUS)                                     &kp BSPC        &mo 2      &kp CAPS               &caps_word &kp ENTER  &kp SPACE                                           &kp ESC      &kp LS(SLASH)  &kp LS(N0)    &kp LS(N5)    &none
+        &kp LALT      &kp TAB      &kp RBKT       &kp LS(EQUAL) &kp RA(MINUS)                                     &kp BSPC        &mo 2      &kp CAPS               &caps_word &kp ENTER  &kp SPACE                                           &kp ESC      &kp LS(SLASH)  &kp LS(N0)    &kp LS(N5)    &kp LALT
       >;
     };
     nav_cmd {

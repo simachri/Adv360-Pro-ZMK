@@ -55,11 +55,11 @@
     };
     num {
       bindings = <
-        &trans        &trans       &trans         &trans        &trans        &trans       &trans                                                                                                         &trans                 &trans       &kp KP_NUM   &kp LS(N0)     &kp KP_DIVIDE &kp KP_MULTIPLY &trans
-        &trans        &trans       &trans         &trans        &trans        &trans       &none                                                                                                          &trans                 &trans       &kp KP_N7    &kp KP_N8      &kp KP_N9     &kp KP_MINUS  &trans
-        &trans        &trans       &trans         &trans        &trans        &trans       &none                                  &trans     &trans                 &trans      &trans                    &trans                 &trans       &kp KP_N4    &kp KP_N5      &kp KP_N6     &kp KP_PLUS   &trans
-        &none         &trans       &trans         &trans        &trans        &trans                              &none           &none      &trans     &none &none &trans      &none     &none                                  &kp RA(E)    &kp KP_N1    &kp KP_N2      &kp KP_N3     &kp LS(DOT)   &trans
-        &trans        &trans       &trans         &trans        &trans                                            &trans          &kp ENTER  &trans                 &trans      &trans    &kp KP_N0                                           &kp SPACE    &kp COMMA      &kp DOT       &trans        &trans
+        &trans        &trans       &trans         &trans        &trans        &trans       &trans                                                                                                         &trans                 &kp KP_NUM   &none        &kp LS(N0)     &kp KP_DIVIDE &kp KP_MULTIPLY &trans
+        &trans        &trans       &trans         &trans        &trans        &trans       &none                                                                                                          &trans                 &trans       &kp KP_N7    &kp KP_N8      &kp KP_N9     &kp KP_MINUS    &trans
+        &trans        &trans       &trans         &trans        &trans        &trans       &none                                  &trans     &trans                 &trans      &trans                    &trans                 &trans       &kp KP_N4    &kp KP_N5      &kp KP_N6     &kp KP_PLUS     &trans
+        &none         &trans       &trans         &trans        &trans        &trans                              &none           &none      &trans     &none &none &trans      &none     &none                                  &kp RA(E)    &kp KP_N1    &kp KP_N2      &kp KP_N3     &kp LS(DOT)     &trans
+        &trans        &trans       &trans         &trans        &trans                                            &trans          &trans     &trans                 &trans      &trans    &trans                                              &kp KP_N0    &kp COMMA      &kp DOT       &trans          &trans
       >;
     };
   };

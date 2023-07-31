@@ -41,7 +41,7 @@
         &none         &trans       &kp LC(LS(X))  &macro_pdepot &kp LC(Z)     &trans       &none                                                                                                          &none                  &kp LC(LEFT) &kp HOME     &kp END        &kp LC(RIGHT) &trans        &trans
         &trans        &trans       &kp LA(LSHIFT) &trans        &kp LC(PSCRN) &trans       &rgb_ug RGB_MEFS_CMD 5                 &bt BT_CLR &bt BT_CLR             &bt BT_CLR &bt BT_CLR                 &rgb_ug RGB_MEFS_CMD 5 &kp LEFT     &kp DOWN     &kp UP         &kp RIGHT     &kp LA(TAB)   &trans
         &trans        &trans       &trans         &trans        &trans        &trans                              &none           &none      &trans     &none &none &trans     &none      &none                                  &trans       &kp LG(N1)   &kp LG(N2)     &kp LG(N3)    &kp LG(N4)    &trans
-        &trans        &trans       &trans         &bl BL_INC    &bl BL_DEC                                        &rgb_ug RGB_TOG &bl BL_TOG &trans                 &none      &bl BL_TOG &rgb_ug RGB_TOG                                     &bl BL_INC   &bl BL_DEC     &trans        &trans        &kp INS
+        &trans        &trans       &trans         &bl BL_INC    &bl BL_DEC                                        &rgb_ug RGB_TOG &bl BL_TOG &trans                 &none      &bl BL_TOG &rgb_ug RGB_TOG                                     &kp LG(N5)   &kp LG(N6)     &kp LG(N7)    &kp LG(N8)    &kp INS
       >;
     };
     sym_fn {
